@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game🎲</title>
+<!-- Start fonts -->
+    <!-- font dantene -->
+    <link href="https://fonts.cdnfonts.com/css/dantene" rel="stylesheet">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Titan+One&display=swap" rel="stylesheet">
+<!-- End fonts -->
+
+    <!-- file wow -->
+    <link rel="stylesheet" href="css/wow.min.css">
+    <!-- file fonts -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- file animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- file bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- file mdbootstrab  -->
+     <!-- <link rel="stylesheet" href="css/mdb.min.css"> -->
+    <!-- file css -->
+    <link rel="stylesheet" href="css/style-game.css">
+                    
+    <link rel="icon" href="media/img/favicon.png" type="image/png">
+
+</head>
+
+<body>
+
+
+    <main class="dice-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 palyer-1 text-center">
+                    <h2>Welcome <span id="namePlayer1"></span> in Dice Game🎲</h2>
+                    <p>Your score: <span id="scroeplayer1" class="scroe-player">0</span></p>
+                    <button class="btn btn-success buttonPlay1">Play</button>
+                    <h2 class="m-0 result" id="result1"></h2>
+                </div>
+                
+                <div class="col-md-6 palyer-2 text-center">
+                    <h2>Welcome <span id="namePlayer2" ></span> in Dice Game🎲</h2>
+                    <p>Your score: <span  id="scroeplayer2" class="scroe-player">0</span></p>
+                    <button class="btn btn-success buttonPlay2">Play</button>
+                    <h2 class="m-0 result" id="result2"></h2>
+                </div>
+
+                <div class="col-md-6 m-auto d-flex justify-content-center flex-column align-items-center">
+                    <!-- <div> -->
+                        <a href="index.html" class="play-again">Play Again</a>
+                    <!-- </div> -->
+
+                    <!-- <p class="">score: <span id="score">0</span></p> -->
+                    <p class="m-4">score: <span id="score">0</span></p>
+
+                    <div class="square">
+                        <span class="circle"></span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- file main js -->
+<script src="js/dice-game.js"></script>
+<!-- file js fonts-->
+<script src="js/all.min.js"></script>
+<!-- jquery -->
+<script src="js/jquery.slim.min.js"></script>
+<!-- file js bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- popper -->
+<script src="js/popper.min.js"></script>
+<!-- file wow -->
+<script src="js/wow.min.js"></script>
+<!-- script to start wow -->
+<script>
+new WOW().init();
+</script>
+<!-- file mdb -->
+<!-- <script src="js/mdb.min.js"></script> -->
+
+</body>
+</html>

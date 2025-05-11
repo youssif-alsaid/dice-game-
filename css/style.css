@@ -1,0 +1,57 @@
+:root{
+    --main-color: #e32b2b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background: linear-gradient(to right, #24363e, #061016);
+}
+
+/* Start style home page */
+
+.welcome-page{
+    background-size: cover;
+
+}
+
+.welcome-page .title h1{
+    
+    text-align: center;
+    color: #e32b2b;
+    font-size: 50px;
+    font-family: "dantene";
+    margin-top: 60px;
+
+}
+
+.welcome-page form label{
+    font-family: 'Dantene';
+    font-size: 29px;
+    color: #fff;
+}
+
+.welcome-page form label span{
+    color: var(--main-color);
+}
+
+.welcome-page form input{
+    font-size: 27px;
+    color: #071f2e;
+    font-family: 'Dantene';
+}
+
+.welcome-page form input:nth-of-type(3){
+    font-family: cursive;
+}
+
+/* End style home page */
+
+
+
+

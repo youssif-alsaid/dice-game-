@@ -9,8 +9,12 @@
 
 
 
-body{
+
+
+.dice-page{
     background: linear-gradient(to right, #24363e, #061016);
+    min-height: 95vh;
+
 }
 
 .dice-page .palyer-1 h2 , .palyer-2 h2{
@@ -18,7 +22,7 @@ body{
     color: #e32b2b;
     font-size: 30px;
     font-family: "dantene";
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .dice-page .palyer-1 h2 span , .palyer-2 h2 span{
@@ -81,6 +85,7 @@ body{
     background-color: var(--main-color);
     border-radius: 10px;
     transition: all 1.0s ease;
+    margin-bottom: 74px;
 
 }
 
@@ -95,3 +100,4 @@ body{
     
 
 }
+

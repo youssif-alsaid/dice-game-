@@ -9,14 +9,14 @@
 
 
 
-body{
-    background: linear-gradient(to right, #24363e, #061016);
-}
 
 /* Start style home page */
 
 .welcome-page{
     background-size: cover;
+    background: linear-gradient(to right, #24363e, #061016);
+    min-height: 700px;
+
 
 }
 
@@ -47,11 +47,50 @@ body{
 }
 
 .welcome-page form input:nth-of-type(3){
+    display: block;
     font-family: cursive;
+    margin-bottom: 30px;
 }
 
 /* End style home page */
 
 
+
+
+.footer{
+    height: 72px;
+    background-color: var(--main-color);
+}
+
+.footer .content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.footer p{
+    font-size: 20px;
+    font-family: fantasy;
+    margin-right: 14px;
+}
+@media only screen and (max-width: 575px){
+    .footer p{
+        font-size: 15px;
+    }
+}
+
+
+
+.footer p a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Dantene';
+}
+
+.footer .icon-ln{
+    font-size: 30px;
+    color: #FFF;
+}
 
 
